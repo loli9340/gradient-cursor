@@ -1,7 +1,7 @@
 {
   "name": "gradient-cursor",
   "description": "A JavaScript library that applies a dynamic and customizable gradient cursor effect to enhance user interaction on web pages.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "homepage": "https://github.com/laura-benavente/gradient-cursor",
   "author": "Laura Benavente (https://github.com/laura-benavente)",

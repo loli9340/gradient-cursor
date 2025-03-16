@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 Semantic Versioning System (https://semver.org/)
 
+## [1.0.3] - 2025-03-16
+
+### Added
+
+- Add video example to README.md file.
+
 ## [1.0.2] - 2025-03-16
 
 ### Added
