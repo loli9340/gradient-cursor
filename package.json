@@ -1,0 +1,68 @@
+{
+  "name": "gradient-cursor",
+  "description": "A JavaScript library that applies a dynamic and customizable gradient cursor effect to enhance user interaction on web pages.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/laura-benavente/gradient-cursor",
+  "author": "Laura Benavente (https://github.com/laura-benavente)",
+  "repository": "laura-benavente/gradient-cursor",
+  "bugs": {
+    "url": "https://github.com/laura-benavente/gradient-cursor/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "clean": "rmdir -rf dist",
+    "test": "jest",
+    "build": "npm run clean && npx tsup"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": {
+      "import": "./dist/*.mjs",
+      "require": "./dist/*.js"
+    }
+  },
+  "dependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.35.0",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.19.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [
+    "gradient-cursor",
+    "cursor",
+    "gradient",
+    "css",
+    "utility",
+    "javascript",
+    "style",
+    "custom",
+    "effect",
+    "mouse",
+    "interactive",
+    "animation",
+    "web",
+    "UI",
+    "design",
+    "custom-cursor",
+    "visual-effect",
+    "web",
+    "frontend",
+    "front"
+  ]
+}
