@@ -51,7 +51,7 @@ import applyGradientCursor from 'gradient-cursor';
 applyGradientCursor({ backgroundColor: "#1c2742", gradientColor: "15, 23, 42", gradientSize: "12vmax" });
 ```
 
-This will apply a red gradient cursor with the specified size and color.
+This will apply a dark blue background with a light gradient cursor with the specified sizer.
 
 ---
 

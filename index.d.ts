@@ -1,4 +1,4 @@
-declare module "apply-gradient-cursor" {
+declare module "gradient-cursor" {
   /**
    * Options for configuring the gradient cursor effect.
    */
