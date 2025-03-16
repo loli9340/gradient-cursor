@@ -53,6 +53,12 @@ applyGradientCursor({ backgroundColor: "#1c2742", gradientColor: "15, 23, 42", g
 
 This will apply a dark blue background with a light gradient cursor with the specified sizer.
 
+## Result
+
+
+https://github.com/user-attachments/assets/bd3692fe-e9fc-4047-a49e-d2e5c1b3363f
+
+
 ---
 
 ## 🔧 API
